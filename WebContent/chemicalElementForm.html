@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chemical Element Input</title>
+</head>
+<body>
+<form action="/periodic-elements/elementbox" method="GET">
+	Search by <SELECT NAME="searchCriteria" id="searchCriteria">
+		<OPTION value="AtomicNumber">Atomic Number</OPTION>
+		<OPTION value="name">Name</OPTION>
+		<OPTION value="symbol">Symbol</OPTION>
+	</SELECT> for: <input type="text" id="searchTerm" name="searchTerm" value="1" />
+	<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
